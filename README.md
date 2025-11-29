@@ -1,1 +1,18 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/mayLc3DP)
+# Boxing Mania
+
+Controls
+
+- Player 1 (left): A (left), D (right), W (punch), S (block)
+- Player 2 (right): Left/Right arrows (move), Up (punch), Down (block)
+- Press `Esc` to quit at any time.
+ - Press `P` to pause the match.
+ - Press `M` to toggle an AI opponent for Player 2.
+
+How to run
+
+You can run the game with .NET SDK installed:
+
+```bash
+cd /Users/viktorjensen/dev/boxing-game
+dotnet run --project boxing-game.csproj
+```
