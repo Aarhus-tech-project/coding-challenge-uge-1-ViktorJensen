@@ -17,8 +17,6 @@ namespace BoxingGame
             try
             {
                 Console.SetWindowSize(Math.Max(100, width), Math.Max(25, height + 1));
-                
-                Console.SetBufferSize(Math.Max(100, width), Math.Max(25, height + 1));
             }
             catch { }
         }
@@ -49,9 +47,9 @@ namespace BoxingGame
             }
             for (int y = top; y <= bottom; y++) 
             {
-                buffer[y, left] = '|'; 
-                buffer[y, right] = '|'; 
-            } 
+                buffer[y, left] = '|';
+                buffer[y, right] = '|';
+            }
             buffer[top, left] = '+'; buffer[top, right] = '+'; 
             buffer[bottom, left] = '+'; buffer[bottom, right] = '+'; 
         }
@@ -165,7 +163,8 @@ namespace BoxingGame
             bool p1Dead = game.Player1.Health <= 0;
             bool p2Dead = game.Player2.Health <= 0;
             bool timeUp = game.RoundTimeMs <= 0;
-            string msg = (p1Dead, p2Dead, timeUp) switch
+            string msg = (p1Dead, p2Dead, timeUp) 
+            switch
             {
                 (true, true, _) => "Draw! Both players knocked out!",
                 (true, false, _) => "Player 2 wins!",

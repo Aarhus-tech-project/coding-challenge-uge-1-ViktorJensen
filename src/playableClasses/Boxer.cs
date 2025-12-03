@@ -1,5 +1,6 @@
 using System;
 using System.Linq.Expressions;
+using System.Security.Cryptography;
 namespace BoxingGame
 {
     public class Boxer
@@ -56,13 +57,22 @@ namespace BoxingGame
         }
         public void Punch()
         {
+            Random rnd = new Random();
+
+            int missChance = rnd.Next(1,100);
             if (Stamina >= 10)
                 if (cooldownTimerMs <= 0 && !IsPunching)
                 {
-                    IsPunching = true;
-                    timerMs = punchDurationMs;
-                    cooldownTimerMs = coolDownMs;
-                    PunchHit = false;
+                    if (missChance > 25)
+                    {
+                        IsPunching = true;
+                        timerMs = punchDurationMs;
+                        cooldownTimerMs = coolDownMs;
+                        PunchHit = false;   
+                    }else
+                    {
+                        return;
+                    }
                 }
             else
                 {

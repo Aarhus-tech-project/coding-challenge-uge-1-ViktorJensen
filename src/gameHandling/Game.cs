@@ -5,6 +5,7 @@ namespace BoxingGame
 {
     public class Game
     {
+
         public int Width { get; }
         public int Height { get; }
         public Boxer Player1 { get; private set; }
@@ -114,6 +115,9 @@ namespace BoxingGame
         }
         private void CheckPunchHits(Boxer attacker, Boxer defender, int leftBound, int rightBound)
         {
+            Random rnd = new Random();
+
+            int knockoutChance = rnd.Next(1,100);
             if (!attacker.IsPunching || attacker.PunchHit) return;
             int range = 4;
             int distance = Math.Abs(attacker.X - defender.X);
@@ -125,7 +129,13 @@ namespace BoxingGame
                 }
                 else
                 {
-                    defender.Health -= 12;
+                    if (knockoutChance > 85)
+                    {
+                        defender.Health -= 42;
+                    } else
+                    {
+                        defender.Health -= 12;
+                    }
                 }
                 attacker.PunchHit = true;
                 int dir = attacker.X < defender.X ? 1 : -1;
@@ -140,7 +150,7 @@ namespace BoxingGame
             if (distance <= 4)
             {
                 ai.Punch();
-                
+                Thread.Sleep(100);
             }
         }
     }
