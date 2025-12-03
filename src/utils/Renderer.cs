@@ -31,7 +31,13 @@ namespace BoxingGame
         }
         private void ClearBuffer()
         {
-            for (int r = 0; r < height; r++) for (int c = 0; c < width; c++) buffer[r, c] = ' ';
+            for (int row = 0; row < height; row++)
+            {
+                for (int col = 0; col < width; col++)
+                {
+                    buffer[row, col] = ' ';
+                }
+            }
         }
         private void DrawRing()
         {
