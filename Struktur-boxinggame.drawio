@@ -1,0 +1,294 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.3">
+  <diagram name="Page-1" id="Jt1mE7gZw77mW3iy54FA">
+    <mxGraphModel dx="2160" dy="2091" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-62" edge="1" parent="1" source="LEPAEO6Q8wgoN_EPFjau-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LEPAEO6Q8wgoN_EPFjau-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Renderer" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="-140" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-63" edge="1" parent="1" source="LEPAEO6Q8wgoN_EPFjau-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LEPAEO6Q8wgoN_EPFjau-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="InputManager" vertex="1">
+          <mxGeometry height="60" width="120" x="360" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-5" edge="1" parent="1" source="LEPAEO6Q8wgoN_EPFjau-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="LEPAEO6Q8wgoN_EPFjau-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Boxer" vertex="1">
+          <mxGeometry height="60" width="120" x="820" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Game.cs" vertex="1">
+          <mxGeometry height="60" width="120" x="690" y="-260" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="BOXING&amp;nbsp;&lt;div&gt;MANIA&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="-130" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-9" edge="1" parent="1" source="LEPAEO6Q8wgoN_EPFjau-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.992;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" target="LEPAEO6Q8wgoN_EPFjau-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="-121" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-90" edge="1" parent="1" source="LEPAEO6Q8wgoN_EPFjau-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="LEPAEO6Q8wgoN_EPFjau-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Program" vertex="1">
+          <mxGeometry height="60" width="120" x="1120" y="-130" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-12" edge="1" parent="1" source="LEPAEO6Q8wgoN_EPFjau-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="LEPAEO6Q8wgoN_EPFjau-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF0D05);" value="Private HashSet" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-14" edge="1" parent="1" source="LEPAEO6Q8wgoN_EPFjau-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="LEPAEO6Q8wgoN_EPFjau-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#4DFF16);" value="Public void&amp;nbsp;&lt;div&gt;PollInputs&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-16" edge="1" parent="1" source="LEPAEO6Q8wgoN_EPFjau-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="LEPAEO6Q8wgoN_EPFjau-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#4DFF16);" value="Public bool IsKeyDown" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#CC00CC);" value="internal IsKeyDown&lt;div&gt;&lt;br&gt;&lt;div&gt;Only accesable within the same asembly files&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="120" x="480" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-19" edge="1" parent="1" source="LEPAEO6Q8wgoN_EPFjau-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.675;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" target="LEPAEO6Q8wgoN_EPFjau-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-20" edge="1" parent="1" source="LEPAEO6Q8wgoN_EPFjau-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LEPAEO6Q8wgoN_EPFjau-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#24FF14);" value="Public Constructor&lt;div&gt;Renderer&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="-260" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF0707);" value="Private int&lt;br&gt;width" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="-260" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF0707);" value="Private int&lt;br&gt;Height" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="-320" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF0707);" value="Private char&lt;br&gt;Buffer" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="-380" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF0707);" value="Private&lt;br&gt;Game game" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="-440" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-26" edge="1" parent="1" source="LEPAEO6Q8wgoN_EPFjau-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.367;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" target="LEPAEO6Q8wgoN_EPFjau-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="-200" />
+              <mxPoint x="350" y="-170" />
+              <mxPoint x="404" y="-170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-27" edge="1" parent="1" source="LEPAEO6Q8wgoN_EPFjau-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="LEPAEO6Q8wgoN_EPFjau-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="-200" />
+              <mxPoint x="200" y="-160" />
+              <mxPoint x="360" y="-160" />
+            </Array>
+            <mxPoint x="340" y="-140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#33FF14);" value="Public void&lt;br&gt;Render" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="-260" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF0505);" value="Private void&lt;br&gt;ClearBuffer" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="-320" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF1414);" value="Private void&lt;br&gt;DrawRing" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="-380" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF1414);" value="Private void&lt;br&gt;DrawBoxer" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="-440" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF2626);" value="Private void&lt;br&gt;DrawUI" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="-500" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF1000);" value="Private void&lt;br&gt;DrawString" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="-680" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF1919);" value="Private void&lt;br&gt;DrawStaminaBar" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="-620" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF0C0C);" value="Private void&lt;br&gt;DrawHealthBar" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="-560" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=solid;fillColor=light-dark(#FFFFFF,#FF0F0F);" value="Private void&lt;br&gt;DrawChar" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="-740" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF0000);" value="Private void&lt;br&gt;Flush" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="-800" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF0000);" value="Private void&lt;br&gt;RenderGameOver" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="-860" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-39" edge="1" parent="1" source="LEPAEO6Q8wgoN_EPFjau-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LEPAEO6Q8wgoN_EPFjau-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#26FF26);" value="Public Constructor&lt;div&gt;Game&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="690" y="-350" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-41" edge="1" parent="1" source="LEPAEO6Q8wgoN_EPFjau-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LEPAEO6Q8wgoN_EPFjau-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#2EFF16);" value="Public int&lt;div&gt;Width&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="840" y="-260" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#2EFF16);" value="Public int&lt;div&gt;Height&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="840" y="-320" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#2EFF16);" value="Public&amp;nbsp;&lt;div&gt;Boxer player 1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="840" y="-380" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#2EFF16);" value="Public&amp;nbsp;&lt;div&gt;Boxer player 2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="840" y="-440" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#2EFF16);" value="Public&amp;nbsp;&lt;div&gt;Renderer Renderer&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="840" y="-500" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#2EFF16);" value="Public&amp;nbsp;&lt;div&gt;InputManager InputManager&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="840" y="-560" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#2EFF16);" value="Public bool&lt;div&gt;IsRunning&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="840" y="-620" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#2EFF16);" value="Public bool&lt;div&gt;IsPaused&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="840" y="-680" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#2EFF16);" value="Public bool&lt;div&gt;IsAiMode&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="840" y="-740" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#2EFF16);" value="Public int&lt;div&gt;RoundTimeMs&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="840" y="-800" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-52" edge="1" parent="1" source="LEPAEO6Q8wgoN_EPFjau-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LEPAEO6Q8wgoN_EPFjau-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#2DFF1E);" value="public void&lt;div&gt;Run&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="-260" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF0000);" value="private void&lt;div&gt;HandleInput&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="-320" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF0A0A);" value="private void&lt;div&gt;Update&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="-380" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF0A0A);" value="private void&lt;div&gt;StaminaDrain&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="-440" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF0A0A);" value="private void&lt;div&gt;CheckPunchHits&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="-500" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF0A0A);" value="private void&lt;div&gt;RunAiForPlayer&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="-560" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-89" edge="1" parent="1" source="LEPAEO6Q8wgoN_EPFjau-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LEPAEO6Q8wgoN_EPFjau-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF0202);" value="Private static void&lt;div&gt;PrintBlue&lt;/div&gt;&lt;div&gt;&amp;nbsp;colors banner string blue&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="120" x="1290" y="-120" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#CCCC00);" value="Static void&lt;div&gt;Main&lt;/div&gt;&lt;div&gt;Sets UTF-8 as the&amp;nbsp;&lt;strong data-start=&quot;152&quot; data-end=&quot;174&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;character encoding for the console&amp;nbsp;&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;strong data-start=&quot;152&quot; data-end=&quot;174&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;strong data-start=&quot;152&quot; data-end=&quot;174&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Creates instance of game&lt;/strong&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="120" x="1290" y="-280" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-78" edge="1" parent="1" source="LEPAEO6Q8wgoN_EPFjau-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="LEPAEO6Q8wgoN_EPFjau-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#47FF19);" value="public int&lt;br&gt;X&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Get returns value of var name&lt;/div&gt;&lt;div&gt;Set assigns value to var name&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="120" x="700" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#47FF19);" value="public int&lt;br&gt;Y" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-66" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF0505);" value="private int&lt;br&gt;health" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF0505);" value="private int&lt;br&gt;stamina" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-68" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF0505);" value="private int&lt;br&gt;regainStaminaMs" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-69" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF0000);" value="private int&lt;br&gt;staminaTimerMs" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#3FFF19);" value="public int&lt;br&gt;Stamina&lt;div&gt;Get value of stamina&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Set value makes sure that stamina is not greater or less than (0,100)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="120" x="700" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#3FFF19);" value="public int&lt;br&gt;Health" vertex="1">
+          <mxGeometry height="70" width="120" x="700" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-73" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF0C0C);" value="private int&lt;br&gt;punchDurationMs" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-74" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF0000);" value="private int&lt;div&gt;coolDownMs&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-75" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF0000);" value="private int&lt;br&gt;blockDurationMs" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-76" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF0000);" value="private int&lt;br&gt;timerMs" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-77" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF0000);" value="private int&lt;br&gt;coolDownTimerMs" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-88" edge="1" parent="1" source="LEPAEO6Q8wgoN_EPFjau-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="LEPAEO6Q8wgoN_EPFjau-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-80" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#19FF21);" value="public constructor&amp;nbsp;&lt;div&gt;Boxer&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="900" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-81" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#19FF21);" value="public void&amp;nbsp;&lt;br&gt;MoveLeft" vertex="1">
+          <mxGeometry height="60" width="120" x="900" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-82" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#19FF21);" value="public&amp;nbsp; void&lt;div&gt;MoveRigth&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="900" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-83" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#19FF21);" value="public void&amp;nbsp;&lt;br&gt;RegainStamina&lt;div&gt;&lt;br&gt;&lt;div&gt;Controls whether or not the playershoud ragainstamina&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Based on deltaMs (The time since last update)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Also counts the time passed, and only takes the the needed 1500ms, the rest is carried over thanks to the modulus operator&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="280" width="120" x="900" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-84" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#19FF21);" value="Public void&amp;nbsp;&lt;br&gt;Punch" vertex="1">
+          <mxGeometry height="60" width="120" x="900" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-85" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#19FF21);" value="public void&amp;nbsp;&lt;br&gt;Block" vertex="1">
+          <mxGeometry height="60" width="120" x="900" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-86" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#19FF21);" value="Public void Tick" vertex="1">
+          <mxGeometry height="60" width="120" x="900" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-91" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#f8cecc, #ff0d00);strokeColor=light-dark(#b85450, #f5f5f5);" value="public string&amp;nbsp;&lt;div&gt;Name&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-92" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#d5e8d4, #0dff00);strokeColor=light-dark(#82B366,#6E6E6E);" value="public bool&amp;nbsp;&lt;div&gt;Is facing left&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-93" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#F8CECC,#33FF0A);strokeColor=light-dark(#b85450, #f5f5f5);" value="public bool&amp;nbsp;&lt;div&gt;IsFacingLeft&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-94" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#F8CECC,#33FF0A);strokeColor=light-dark(#b85450, #f5f5f5);" value="public bool&amp;nbsp;&lt;div&gt;IsPunching&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Lets other code read the value, but only this class can change the it&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="120" x="700" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-95" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#F8CECC,#33FF0A);strokeColor=light-dark(#b85450, #f5f5f5);" value="public bool&amp;nbsp;&lt;div&gt;PunchHit&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="LEPAEO6Q8wgoN_EPFjau-96" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#F8CECC,#33FF0A);strokeColor=light-dark(#b85450, #f5f5f5);" value="public bool&amp;nbsp;&lt;div&gt;IsBlocking&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="1460" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
