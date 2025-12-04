@@ -1,4 +1,3 @@
-using System;
 using System.Text;
 namespace BoxingGame
 {
@@ -148,9 +147,9 @@ namespace BoxingGame
         {
             var sb = new StringBuilder();
             sb.Append("\u001b"); sb.Append("[0;0H]");
-            for (int r = 0; r < height; r++)
+            for (int row = 0; row < height; row++)
             {
-                for (int c = 0; c < width; c++) sb.Append(buffer[r, c]);
+                for (int col = 0; col < width; col++) sb.Append(buffer[row, col]);
                 sb.Append("\n");
             }
             Console.Write(sb.ToString());
