@@ -31,7 +31,6 @@ namespace BoxingGame
         }
         private void ClearBuffer()
         {
-<<<<<<< HEAD
             for (int row = 0; row < height; row++)
             {
                 for (int col = 0; col < width; col++)
@@ -39,10 +38,6 @@ namespace BoxingGame
                     buffer[row, col] = ' ';
                 }
             }
-=======
-            for (int r = 0; r < height; r++) 
-            for (int c = 0; c < width; c++) buffer[r, c] = ' ';
->>>>>>> 59ab4a7 (added crit/miss, refactored stamina and health, renaming)
         }
         private void DrawRing()
         {
