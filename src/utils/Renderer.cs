@@ -31,6 +31,7 @@ namespace BoxingGame
         }
         private void ClearBuffer()
         {
+<<<<<<< HEAD
             for (int row = 0; row < height; row++)
             {
                 for (int col = 0; col < width; col++)
@@ -38,6 +39,10 @@ namespace BoxingGame
                     buffer[row, col] = ' ';
                 }
             }
+=======
+            for (int r = 0; r < height; r++) 
+            for (int c = 0; c < width; c++) buffer[r, c] = ' ';
+>>>>>>> 59ab4a7 (added crit/miss, refactored stamina and health, renaming)
         }
         private void DrawRing()
         {
@@ -86,7 +91,7 @@ namespace BoxingGame
                     DrawString(baseY - 1, baseX + 3, "-->");
                 }
             }
-            if (b.Health <= 0)
+            if (b.healthChecker <= 0)
             {
                 DrawChar(baseY - 2, baseX, 'X');
             }
@@ -98,12 +103,12 @@ namespace BoxingGame
             DrawString(0, width - 20, $"{game.Player2.Name}");
 
             // Health bars (row 1)
-            DrawHealthBar(1, 0, game.Player1);
-            DrawHealthBar(1, width - 40, game.Player2);
+            DrawBar(1, 0, "Health", game.Player1.healthChecker);
+            DrawBar(1, width - 40, "Health", game.Player2.healthChecker);
 
             // Stamina bars (row 2)
-            DrawStaminaBar(2, 0, game.Player1);
-            DrawStaminaBar(2, width - 40, game.Player2);
+            DrawBar(2, 0, "Stamina", game.Player1.staminaChecker);
+            DrawBar(2, width - 40, "Stamina", game.Player2.staminaChecker);
 
             // Timer at row 3
             var times = TimeSpan.FromMilliseconds(game.RoundTimeMs);
@@ -122,21 +127,12 @@ namespace BoxingGame
 
             DrawString(height - 1, 1, "P1: A/D move, W punch, S block -- P2: Left/Right move, Up punch, Down Block -- esc");
         }
-        private void DrawHealthBar(int y, int x, Boxer b)
+        private void DrawBar(int y, int x, string label, int value)
         {
             int w = 26;
-            int h = b.Health;
-            int fill = Math.Max(0, Math.Min(w, (int)Math.Ceiling(w * b.Health / 100.0)));
-            string bar = "Health: " + new string('#', fill) + new string(' ', w - fill);
-            DrawString(y, x, bar + $" {b.Health,3}");
-        }
-        private void DrawStaminaBar(int y, int x, Boxer b)
-        {
-            int w = 26;
-            int h = b.Stamina;
-            int fill = Math.Max(0, Math.Min(w, (int)Math.Ceiling(w * b.Stamina / 100.0)));
-            string bar = "Stamina: " + new string('#', fill) + new string(' ', w - fill);
-            DrawString(y, x, bar + $" {b.Stamina,3}");
+            int fill = Math.Max(0, Math.Min(w, (int)Math.Ceiling(w * value / 100.0)));
+            string bar = label + ": " + new string('#', fill) + new string(' ', w - fill);
+            DrawString(y, x, bar + $" {value,3}");
         }
         private void DrawString(int row, int col, string s)
         {
@@ -166,8 +162,8 @@ namespace BoxingGame
         }
         public void RenderGameOver()
         {
-            bool p1Dead = game.Player1.Health <= 0;
-            bool p2Dead = game.Player2.Health <= 0;
+            bool p1Dead = game.Player1.healthChecker <= 0;
+            bool p2Dead = game.Player2.healthChecker <= 0;
             bool timeUp = game.RoundTimeMs <= 0;
             string msg = (p1Dead, p2Dead, timeUp) 
             switch
@@ -176,9 +172,9 @@ namespace BoxingGame
                 (true, false, _) => "Player 2 wins!",
                 (false, true, _) => "Player 1 wins!",
                 (false, false, true) =>
-                    game.Player1.Health > game.Player2.Health
+                    game.Player1.healthChecker > game.Player2.healthChecker
                         ? "Time! Player 1 wins by higher HP!"
-                        : game.Player2.Health > game.Player1.Health
+                        : game.Player2.healthChecker > game.Player1.healthChecker
                             ? "Time! Player 2 wins by higher HP!"
                             : "Time! Draw!",
                 _ => "Game ended."

@@ -43,7 +43,7 @@ namespace BoxingGame
                         RoundTimeMs = Math.Max(0, RoundTimeMs - frameTime);
                     }
                 Renderer.Render();
-                        if (Player1.Health <= 0 || Player2.Health <= 0 || RoundTimeMs <= 0)
+                        if (Player1.healthChecker <= 0 || Player2.healthChecker <= 0 || RoundTimeMs <= 0)
                     {
                         IsRunning = false;
                         Renderer.RenderGameOver();
@@ -67,7 +67,7 @@ namespace BoxingGame
         }
         private void HandleInput()
         {
-            // Player 1                             //TODO await Task.Delay(xxxx);
+            // Player 1                          
             int leftBound = 4;
             int rightBound = this.Width - 5;
             // Player 1
@@ -106,11 +106,11 @@ namespace BoxingGame
         {
             if (attacker.IsPunching)
             {
-                attacker.Stamina = Math.Max(0, attacker.Stamina - 2);
+                attacker.staminaChecker = Math.Max(0, attacker.staminaChecker - 2);
             }
             if (defender.IsBlocking)
             {
-                defender.Stamina = Math.Max(0, defender.Stamina - 1);
+                defender.staminaChecker = Math.Max(0, defender.staminaChecker - 1);
             }
         }
         private void CheckPunchHits(Boxer attacker, Boxer defender, int leftBound, int rightBound)
@@ -125,16 +125,16 @@ namespace BoxingGame
             {
                 if (defender.IsBlocking)
                 {
-                    defender.Health -= 5;
+                    defender.healthChecker -= 5;
                 }
                 else
                 {
                     if (knockoutChance > 85)
                     {
-                        defender.Health -= 42;
+                        defender.healthChecker -= 42;
                     } else
                     {
-                        defender.Health -= 12;
+                        defender.healthChecker -= 12;
                     }
                 }
                 attacker.PunchHit = true;

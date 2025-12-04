@@ -13,8 +13,10 @@ namespace BoxingGame
         private int stamina = 100;
         private int regainStaminaMs = 1500;
         private int staminaTimerMs = 0;
-        public int Stamina { get => stamina; set => stamina = Math.Max(0, Math.Min(100, value)); }
-        public int Health { get => health; set => health = Math.Max(0, Math.Min(100, value)); }
+        public int staminaChecker { get => stamina; 
+        set => stamina = Math.Max(0, Math.Min(100, value)); }
+        public int healthChecker { get => health; 
+        set => health = Math.Max(0, Math.Min(100, value)); }
         public bool IsPunching { get; private set; }
         public bool PunchHit { get; set; }
         public bool IsBlocking { get; private set; }
@@ -42,7 +44,7 @@ namespace BoxingGame
         }
         public void RegainStamina(int deltaMs)
         {
-            if (Stamina >= 100)
+            if (staminaChecker >= 100)
             {
                 staminaTimerMs = 0;
                 return;
@@ -52,7 +54,7 @@ namespace BoxingGame
             {
                 int increments = staminaTimerMs / regainStaminaMs;
                 staminaTimerMs %= regainStaminaMs;
-                Stamina += 10 * increments;
+                staminaChecker += 10 * increments;
             }
         }
         public void Punch()
@@ -60,7 +62,7 @@ namespace BoxingGame
             Random rnd = new Random();
 
             int missChance = rnd.Next(1,100);
-            if (Stamina >= 10)
+            if (staminaChecker >= 10)
                 if (cooldownTimerMs <= 0 && !IsPunching)
                 {
                     if (missChance > 25)
@@ -81,7 +83,7 @@ namespace BoxingGame
         }
         public void Block()
         {
-            if (Stamina >= 10)
+            if (staminaChecker >= 10)
                 if (cooldownTimerMs <= 0)
                 {
                     IsBlocking = true;
