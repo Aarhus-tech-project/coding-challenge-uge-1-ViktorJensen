@@ -21,10 +21,5 @@ namespace BoxingGame
         {
             return keysDown.Contains(key);
         }
-
-        internal ConsoleKey IsKeyDown()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

@@ -26,7 +26,6 @@ namespace BoxingGame
             DrawBoxer(game.Player1);
             DrawBoxer(game.Player2);
             DrawUI();
-            Flush();
         }
         private void ClearBuffer()
         {
@@ -143,17 +142,6 @@ namespace BoxingGame
             if (row < 0 || row >= height || col < 0 || col >= width) return;
             buffer[row, col] = ch;
         }
-        private void Flush()
-        {
-            var sb = new StringBuilder();
-            sb.Append("\u001b"); sb.Append("[0;0H]");
-            for (int row = 0; row < height; row++)
-            {
-                for (int col = 0; col < width; col++) sb.Append(buffer[row, col]);
-                sb.Append("\n");
-            }
-            Console.Write(sb.ToString());
-        }
         public void RenderGameOver()
         {
             bool p1Dead = game.Player1.healthChecker <= 0;
@@ -174,7 +162,6 @@ namespace BoxingGame
                 _ => "Game ended."
             };
             DrawString(height / 2, (width - msg.Length) / 2, msg);
-            Flush();
         }
     }
 }
