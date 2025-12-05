@@ -14,5 +14,5 @@ You can run the game with .NET SDK installed:
 
 ```bash
 cd /boxing-game
-dotnet run --project boxing-game.csproj
+dotnet run
 ```
